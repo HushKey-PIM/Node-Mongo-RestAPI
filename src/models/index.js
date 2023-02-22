@@ -26,5 +26,15 @@ module.exports.Insurance = require('./records/insurance.model');
 module.exports.Invoice = require('./records/invoice.model');
 module.exports.Medical = require('./records/medical.model');
 
+// Files models
+module.exports.Document = require('./files/document.model');
+module.exports.Image = require('./files/image.model');
+
+// Bookmarks models
+module.exports.Bookmark = require('./bookmarks/bookmark.model');
+
+// Contacts models
+module.exports.Contact = require('./contacts/contact.model');
+
 // Note models
 module.exports.Note = require('./notes/note.model');
